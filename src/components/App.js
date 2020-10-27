@@ -3,11 +3,11 @@ import "../styles/App.css";
 
 class App extends Component {
   render() {
-    let list = ["brijesh", "priyanka", "soni"];
+    let relativeList = ["brijesh", "priyanka", "soni"];
     return (
       <ol key="relativeList">
         {" "}
-        {list.map((relative, index) => (
+        {relativeList.map((relative, index) => (
           <li key={`relativeListItem${index + 1}`}>{relative}</li>
         ))}
       </ol>
